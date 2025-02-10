@@ -1,4 +1,4 @@
-#  NOOB PORTFOLIO 🌐
+# NOOB PORTFOLIO 🌐
 
 **A Full-Stack Personal Portfolio Built with Next.js, Tailwind CSS, Node.js, and Express**
 
@@ -33,19 +33,21 @@ Noobwork Portfolio is a **full-stack personal portfolio** that showcases my proj
 Noob-Work/
 │── portfolio-frontend/                # Next.js + Tailwind CSS (Client-side)
 │── portfolio-backend/                 # Node.js + Express (Server-side)
-│── README.md                # Project documentation
+│── README.md                          # Project documentation
+```
 
+---
 
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Clone the Repository  
-bash
+```bash
 git clone https://github.com/Junaeid11/personal-portfolio.git
 cd personal-portfolio
-
+```
 
 ### 2️⃣ Install Dependencies  
-bash
+```bash
 # Backend
 cd backend
 npm install
@@ -53,10 +55,10 @@ npm install
 # Frontend
 cd ../frontend
 npm install
-
+```
 
 ### 3️⃣ Run the Application  
-bash
+```bash
 # Backend
 cd backend
 npm start
@@ -64,7 +66,7 @@ npm start
 # Frontend
 cd ../frontend
 npm run dev
-
+```
 
 ---
 
