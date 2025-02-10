@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body {
+    @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+    cursor: pointer;
+  }
+html.light {
+    background-color: white;
+    color: black;
+  }
+  
+html.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
