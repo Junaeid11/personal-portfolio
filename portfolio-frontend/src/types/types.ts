@@ -11,7 +11,7 @@ export interface TBlog {
   import { StaticImageData } from 'next/image';
 
 export interface Project {
-  id: string;
+  id: string | undefined;
   name: string;
   description: string;
   technologies: string[];

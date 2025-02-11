@@ -16,6 +16,15 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
+            href="/dashboard/add-project"
+            className="flex items-center dark:text-white dark:hover:text-black space-x-2 p-3 rounded-md hover:bg-gray-200 text-gray-700"
+          >
+          
+            <span>Create project</span>
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/dashboard/blog"
             className="flex items-center dark:text-white dark:hover:text-black space-x-2 p-3 rounded-md hover:bg-gray-200 text-gray-700"
           >

@@ -62,7 +62,7 @@ export const projects : Project[]= [
     description: "A personal portfolio website showcasing my work and skills, built with frontend and backend technologies. Includes sections for projects, blog, and contact.",
     technologies: ["Next.js", "Tailwind CSS", "React", "Node.js"],
     link: "https://myportfolio.com",
-    github: "https://github.com/myusername/portfolio",
+    github: "https://github.com/Junaeid11/personal-portfolio",
     completionDate: "2024-01-15",
     image: logo3,
     status: "Completed",

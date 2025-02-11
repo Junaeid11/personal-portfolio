@@ -34,7 +34,7 @@ const CreateBlogs = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen my-2">
+    <div className="flex items-center justify-center my-4">
       <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-6">
         <form onSubmit={handleSubmit(onSubmit)}>
           <h2 className="text-2xl font-semibold mb-6 text-red-600 text-center">
@@ -95,7 +95,7 @@ const CreateBlogs = () => {
 
           <button
             type="submit"
-            className="mt-6 w-full bg-teal-600 text-white py-2 px-4 rounded-md hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="mt-6 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             Create
           </button>
